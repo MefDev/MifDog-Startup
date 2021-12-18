@@ -8,6 +8,38 @@ h1 {
   color: white;
   padding: 5%;
 }
+h3 {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+
+}
+#features {
+  padding: 5% 15%;
+}
+#features i {
+  color: #FFAFAF;
+  padding: 5% 20%;
+
+
+
+}
+#features i:hover {
+ color: #ff4c68;
+}
+#features p {
+
+  color: lightgray;
+ text-align: center;
+
+ font-size: 1.2rem;
+
+
+
+
+
+}
+
 .container-fluid{
   padding: 2% 10%;
 }
@@ -32,6 +64,15 @@ h1 {
 
 
 }
+@media (max-width: 1000px)
+  {
+    .rotateimg180 {
+    transform: rotate(15deg);
+    padding-top: 3%;
+    width: 50%;
+  }
+}
+
  button {
    margin: 5% auto auto 3%;
  }
