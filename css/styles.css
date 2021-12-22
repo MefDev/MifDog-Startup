@@ -87,10 +87,13 @@ h3 {
 
  #testimonials {
    text-align: center;
-   padding: 10rem;
+
    color: white;
    background-color: #FFAFAF;
 
+ }
+ .carousel-item {
+   padding: 5% 15%;
  }
  .testDog-img {
    border-radius: 50%;
