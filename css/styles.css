@@ -1,6 +1,7 @@
 #title {
   background-color: #ff4c68;
 }
+
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 4rem;
@@ -8,45 +9,43 @@ h1 {
   color: white;
   padding: 5%;
 }
+
 h2 {
   font-family: 'Montserrat-bold', sans-serif;
   font-size: 3.8rem;
-
 }
+
 h3 {
   font-family: 'Montserrat-bold', sans-serif;
   font-size: 1.5rem;
   text-align: center;
-
 }
+
 #features {
   padding: 5% 15%;
+  z-index: 1;
+position: relative;
+background-color: white;
 }
+
 #features i {
   color: #FFAFAF;
   padding: 5% 20%;
 
-
-
 }
+
 #features i:hover {
- color: #ff4c68;
+  color: #ff4c68;
 }
+
 #features p {
-
   color: lightgray;
- text-align: center;
-
- font-size: 1.2rem;
-
-
-
-
-
+  text-align: center;
+  font-size: 1.2rem;
 }
 
-.container-fluid{
-  padding: 2% 10%;
+.container-fluid {
+  padding: 2% 10% 10%;
 }
 
 .navbar-brand {
@@ -54,24 +53,22 @@ h3 {
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
 }
+
 .nav-item {
   padding-right: 2rem;
   font-size: 1.3rem;
-  }
-
-
-  .rotateimg180 {
-  transform: rotate(20deg);
-  width: 60%;
-
-
-
-
-
 }
-@media (max-width: 1000px)
-  {
-    .rotateimg180 {
+
+.rotateimg180 {
+  transform: rotate(25deg);
+  width: 22%;
+  position: absolute;
+  z-index: 1;
+  right: 28%;
+}
+
+@media (max-width: 1000px) {
+  .rotateimg180 {
     transform: rotate(15deg);
     padding-top: 3%;
     width: 50%;
@@ -79,50 +76,50 @@ h3 {
 }
 
 #title button {
-   margin: 5% auto auto 3%;
- }
+  margin: 5% auto auto 3%;
+}
 
+/* testimonials section */
+#testimonials {
+  text-align: center;
+  color: white;
+  background-color: #FFAFAF;
+}
 
- /* testimonials section */
+#testimonials button {
+  margin-top: 10rem;
+}
 
- #testimonials {
-   text-align: center;
+.carousel-item {
+  padding: 5% 15%;
+}
 
-   color: white;
-   background-color: #FFAFAF;
+.testDog-img {
+  border-radius: 50%;
+  width: 10%;
+  padding: 1rem;
+}
 
- }
- #testimonials button {
-   margin-top: 10rem;
- }
- .carousel-item {
-   padding: 5% 15%;
- }
- .testDog-img {
-   border-radius: 50%;
-   width: 10%;
-   padding: 1rem;
- }
- #press {
-   background-color: #FFAFAF;
-   text-align: center;
+#press {
+  background-color: #FFAFAF;
+  text-align: center;
+}
 
- }
- .press-img {
+.press-img {
+  width: 250px;
+  padding-left: 5%;
+  padding-bottom: 10%;
+}
 
-    width: 250px;
-    padding-left: 5%;
-    padding-bottom: 10%;
+/* pricing section */
+#pricing {
+  padding: 5rem;
+  text-align: center;
+}
 
- }
-
- /* pricing section */
-
- #pricing {
-   padding: 5rem;
-   text-align: center;
- }
-
- .card-customization {
-   padding: 4% 1%;
- }
+.card-customization {
+  padding: 4% 1%;
+}
+.monthes-changes {
+  color: lightgray;
+}
