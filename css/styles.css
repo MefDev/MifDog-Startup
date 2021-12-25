@@ -10,6 +10,18 @@ h1 {
   padding: 5%;
 }
 
+@media (max-width:1300px) {
+   h1 {
+     font-size: 280%;
+     align-items: center;
+   }
+
+
+
+}
+
+
+
 h2 {
   font-family: 'Montserrat-bold', sans-serif;
   font-size: 3.8rem;
@@ -48,6 +60,14 @@ background-color: white;
   padding: 2% 10% 10%;
 }
 
+@media (max-width: 990px)
+{
+ .container-fluid {
+   text-align: center;
+
+ }
+}
+
 .navbar-brand {
   font-size: 2.7rem;
   font-family: 'Ubuntu', sans-serif;
@@ -66,14 +86,20 @@ background-color: white;
   z-index: 1;
   right: 28%;
 }
-
-@media (max-width: 1000px) {
+@media (max-width: 990px)
+{
   .rotateimg180 {
-    transform: rotate(15deg);
-    padding-top: 3%;
-    width: 50%;
-  }
+   position: static;
+   transform: none;
+   width: 35%;
+   padding-top: 6%;
+
+      }
+
+
 }
+
+
 
 #title button {
   margin: 5% auto auto 3%;
