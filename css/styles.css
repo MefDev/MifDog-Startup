@@ -80,6 +80,7 @@ background-color: white;
 }
 
 .rotateimg180 {
+  border-radius: 2.5rem;
   transform: rotate(25deg);
   width: 22%;
   position: absolute;
@@ -89,6 +90,7 @@ background-color: white;
 @media (max-width: 990px)
 {
   .rotateimg180 {
+  border-radius: 4rem;
    position: static;
    transform: none;
    width: 35%;
@@ -148,4 +150,34 @@ background-color: white;
 }
 .monthes-changes {
   color: lightgray;
+}
+
+/* cta section */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 8rem;
+
+
+}
+#cta h3 {
+  font-size: 5rem;
+  color: #fff;
+}
+
+#cta button {
+  margin: 2rem 0.5rem;
+}
+
+#footer {
+  text-align: center;
+  padding: 5rem;
+}
+.copyright-style{
+  color: lightgray;
+  font-size: 1.4rem;
+}
+.footericons{
+  padding: 10px;
 }
