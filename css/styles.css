@@ -181,3 +181,6 @@ background-color: white;
 .footericons{
   padding: 10px;
 }
+#footer a {
+  color: black;
+}
