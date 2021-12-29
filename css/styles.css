@@ -32,7 +32,7 @@ h1, h2, h3 {
 }
 
 .container-fluid {
-  padding: 2% 10% 10%;
+  padding: 2% 8% 6%;
 }
 
 @media (max-width: 990px) {
@@ -86,7 +86,7 @@ h1, h2, h3 {
 
 .feature-far {
   color: #FFAFAF;
-  padding: 5% 20%;
+
 }
 
 .feature-far:hover {
@@ -125,7 +125,6 @@ h1, h2, h3 {
 
 .testDog-img {
   border-radius: 50%;
-
   width: 6%;
 }
 
